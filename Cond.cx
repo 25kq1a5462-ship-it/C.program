@@ -7,9 +7,9 @@ scanf("%d%d",&a,&b);
 printf("\n Enter the a and b values:");
 if(a>b)
 {
-printf("%d",true);
+printf("%d", large);
 }
 else if(a<b)
 {
-printf("%d",false);
+printf("%d",small);
 }
