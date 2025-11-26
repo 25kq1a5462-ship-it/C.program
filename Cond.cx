@@ -2,7 +2,7 @@
 int main()
 {
 int a,b;
-scanf("%d%d",&a,&b);
+scanf("%d %d",&a,&b);
 printf("\n Enter the a and b values:");
 if(a>b)
 {
@@ -16,3 +16,4 @@ else
 {
 printf("%d both are equal\n");
 return 0;
+}
