@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
 int a,b;
@@ -7,9 +6,13 @@ scanf("%d%d",&a,&b);
 printf("\n Enter the a and b values:");
 if(a>b)
 {
-printf("%d", large);
+printf("%d greater value\n", a);
 }
 else if(a<b)
 {
-printf("%d",small);
+printf("%d greater value\n",b);
 }
+else
+{
+printf("%d both are equal\n");
+return 0;
