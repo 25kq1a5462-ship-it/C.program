@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int a,b;
+scanf("%d",&a,&b);
+printf("\n Enter the a and b values:");
+if(a>b)
+{
+printf("%d",true);
+}
+else if(a<b)
+{
+printf("%d",false);
+}
