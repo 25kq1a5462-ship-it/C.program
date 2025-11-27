@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int i;
+	printf("Enter the values");
+	scanf("%d",&i);
+	if(i%2==0)
+	{
+		printf("even");
+	}
+	else if(i%2!=0)
+	{
+		printf("odd");
+	}
+	getch();
+}
