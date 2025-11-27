@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+struct hotel{
+	char hotelname[15];
+	char address[10];
+	int noofdishes;
+	int seatingcapacity;
+	float rating;
+};
+	void main()
+	{
+		struct hotel h1{"bilal","ongole",15,50,4.5};
+		      printf("\n hotelname :%s",h1.hotelname);
+		printf("\n address :%s",h1.address);
+		
+       printf("\n noofdishes : %d",h1.noofdishes);
+       
+       
+  printf("\n seatingcapacity : %d",h1.  seatingcapacity);
+  
+  
+	printf("\n rating :%1.f",h1. rating);
+	
+	
+	getch();
+	}
+  
+	
+			
+	
